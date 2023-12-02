@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout'){
            steps {
                 git credentialsId: 'b2814c07-9abc-4725-8438-bfa6189739e3', 
-                url: 'https://github.com/Ewambe/Jenkins-Project/tree/master/python-jenkins-argocd-k8s',
+                url: 'https://github.com/Ewambe/Jenkins-Project',
                 branch: 'main'
            }
         }
